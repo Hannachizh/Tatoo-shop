@@ -1,0 +1,642 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+@mixin headerText {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+@mixin mainText {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@mixin headerSize15 {
+    color: #FAF6F2;
+    font-size: 15px;
+}
+
+@mixin btn {
+    border: 2px solid #BB8C5F;
+    font-size: 20px;
+    padding: 19px 63px 23px 64px;
+}
+
+@mixin btnHover {
+    background: #BB8C5F;
+    transition: 0.8s;
+}
+
+@mixin brendsText {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #BB8C5F;
+}
+
+@mixin modals {
+    width: 350px;
+    height: 401px;
+    max-width: 1920px;
+    position: absolute;
+    margin-top: -32px;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@mixin modalsh3 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    color: #3E424B;
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+@mixin modalsHeadImg {
+    margin-bottom: 19px;
+
+    width: 100%;
+}
+
+@mixin devideLine {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+@mixin signModalH5 {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 115%;
+    color: #3E424B;
+}
+
+@mixin signModalHead {
+    max-width: 50%;
+    width: 100%;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #D0D0D0;
+}
+
+.all-document {
+    max-width: 1920px;
+
+    
+
+    .container2 {
+        background-color: #EEEEEE;
+        padding-top: 106px;
+
+        .first-part-container {
+            .first-part {
+                max-width: 1166px;
+                margin: 0 auto;
+
+                #categories-menu {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 12px;
+
+                    .categories-block {
+
+                        .categories {
+                            font-family: 'Jost';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 30px;
+                            line-height: 115%;
+                            color: #3E424B;
+                        }
+
+                        .categories-img {
+                            display: none;
+                        }
+
+                        #img-one {
+                            width: 207px;
+                            margin-left: -9px;
+                        }
+
+                        #img-two {
+                            width: 272px;
+                        }
+
+                        #img-three {
+                            margin-left: -6px;
+                        }
+
+                        #img-four {
+                            margin-left: 1px;
+                            width: 297px;
+                        }
+
+                        .categories:hover {
+                            color: #BB8C5F;
+                            transition: 0.8s;
+                        }
+
+                        .active-category {
+                            color: #BB8C5F;
+                        }
+
+                        .active-img {
+                            display: block;
+                        }
+                    }
+
+                }
+
+                .products-block {
+                    margin-top: 37px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+
+                    .product-card {
+                        max-width: 289px;
+                        width: 100%;
+                        background-color: #F5F5F5;
+                        margin-bottom: 7px;
+
+                        .card-top-navigation {
+                            padding-top: 30px;
+                            z-index: 2;
+                            position: relative;
+                            margin-left: 30px;
+                            
+                            .card-like-icon {
+                                margin-left: 51px
+                            }
+
+                            .not-active {
+                                display: none;
+                            }
+
+                            .card-gold-heart {
+                                margin-bottom: 6px;
+                                margin-left: 55px;
+                            }
+                        }
+
+                        .product-photo-one {
+                            position: relative;
+                            z-index: 1;
+                            object-fit: cover;
+                        }
+
+                        #card-photo-change {
+                            text-align: center;
+                            margin-bottom: 6px;
+                        }
+
+                        .card-descr {
+                            margin-left: 30px;
+
+                            #descr {
+                                @include mainText();
+                                font-size: 17px;
+                                color: #3E424B;
+                            }
+
+                            #price {
+                                margin-top: 10px;
+                                padding-bottom: 20px;
+                                font-family: 'Jost';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 130%;
+                                color: #BB8C5F;
+                            }
+                        }
+
+                        .card-btn-box {
+                            text-align: center;
+
+                            .card-btn {
+                                border: 2px solid #BB8C5F;
+                                font-size: 20px;
+                                padding: 14px 42px 14px 42px;
+                                color: #BB8C5F;
+                                margin-bottom: 10px;
+                            }
+
+                            .card-btn:hover {
+                                @include btnHover();
+                                color: #FAF6F2;
+                            }
+                        }
+                    }
+
+
+
+                }
+
+                .btn-block {
+                    margin: 0 auto;
+                    text-align: center;
+
+                    .btn {
+
+                        @include btn();
+                        color: #BB8C5F;
+                        margin-top: 50px;
+                        margin-bottom: 120px;
+                    }
+
+                    .btn:hover {
+                        @include btnHover();
+                        color: #FAF6F2;
+                    }
+                }
+
+            }
+        }
+
+        .catalog-container {
+            h4 {
+                font-family: 'Forum';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 100%;
+                color: #3E424B;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .catalog-blocks {
+                display: grid;
+                grid-template-columns: 342px 153px 186px 154px 341px;
+                grid-template-rows: (4, 350px);
+                column-gap: 10px;
+                row-gap: 20px;
+                justify-content: center;
+                margin-bottom: 120px;
+
+                #block1 {
+                    grid-row: 1;
+                    grid-column: 1/3;
+                }
+
+                ;
+
+                #block2 {
+                    grid-row: 1;
+                    grid-column: 3/6;
+                }
+
+                ;
+
+                #block3 {
+                    grid-row: 2;
+                    grid-column: 1;
+                }
+
+                ;
+
+                #block4 {
+                    grid-row: 2;
+                    grid-column-start: 2;
+                    grid-column-end: 5;
+                }
+
+                ;
+
+                #block5 {
+                    grid-row: 2;
+                    grid-column: 5;
+                }
+
+                ;
+
+                #block6 {
+                    grid-row: 3;
+                    grid-column: 1/3;
+                }
+
+                ;
+
+                #block7 {
+                    grid-row: 3;
+                    grid-column: 3/5;
+                }
+
+                ;
+
+                #block8 {
+                    grid-row: 3;
+                    grid-column: 5;
+                }
+
+                ;
+
+                #block9 {
+                    grid-row: 4;
+                    grid-column: 1;
+                }
+
+                ;
+
+                #block10 {
+                    grid-row: 4;
+                    grid-column: 2/4;
+                }
+
+                ;
+
+                #block11 {
+                    grid-row: 4;
+                    grid-column: 4/6;
+                }
+
+                ;
+            }
+        }
+
+        .brends {
+            display: flex;
+            justify-content: space-between;
+
+            .paints {
+                background-image: url('../images/paintLipNitn.jpg');
+                max-width: 49%;
+                width: 100%;
+                background-size: auto;
+                background-repeat: no-repeat;
+                text-align: center;
+                padding-bottom: 50px;
+
+                h4 {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 130%;
+                    color: #FAF6F2;
+                    padding-top: 40px
+                }
+
+                p {
+                    @include brendsText();
+                    padding-top: 298px;
+                }
+            }
+
+            .mashins {
+                background-image: url('../images/FoxxHits.jpg');
+                max-width: 49%;
+                width: 100%;
+                background-size: auto;
+                background-repeat: no-repeat;
+                padding-bottom: 50px;
+
+                h4 {
+                    max-width: 267px;
+                    padding-left: 53px;
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 130%;
+                    color: #FAF6F2;
+                    padding-top: 40px
+                }
+
+                p {
+                    @include brendsText();
+                    padding-left: 53px;
+                    padding-top: 246px;
+                }
+
+                img {
+                    padding-left: 46px;
+                }
+            }
+        }
+
+        .about-block {
+            margin-top: 115px;
+            display: flex;
+
+            .photo-part {
+                max-width: 49%;
+                width: 100%;
+
+                img {
+                    max-width: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            #text-part {
+                max-width: 582px;
+                width: 100%;
+                margin-left: 55px;
+
+                h3 {
+                    font-family: 'Forum';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 50px;
+                    line-height: 130%;
+                    color: #BB8C5F;
+                }
+
+                p {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 140%;
+                    color: #3E424B;
+                }
+
+                #bottom-part {
+                    margin-top: 20px;
+                }
+
+                .btn {
+                    margin-top: 40px;
+                    @include btn();
+                    color: #BB8C5F;
+                }
+
+                .btn:hover {
+                    @include btnHover();
+                    color: #FAF6F2;
+                }
+            }
+
+        }
+
+        @mixin inputBlock {
+            width: 392px;
+            height: 70px;
+            background-color: #F5F5F5;
+            border: #F5F5F5;
+        }
+
+        .subscribe-form {
+            margin-top: 109px;
+            display: flex;
+            justify-content: end;
+            padding-bottom: 200px;
+
+            .form-part {
+                max-width: 523px;
+
+                h4 {
+                    font-family: 'Forum';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 60px;
+                    line-height: 100%;
+                    color: #3E424B;
+                    margin-bottom: 20px;
+                }
+
+                .subsc-text {
+                    font-family: 'Jost';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 23px;
+                    line-height: 110%;
+                    color: #3E424B;
+                    margin-bottom: 30px;
+                }
+
+                .input-mail-part {
+                    margin-bottom: 16px;
+
+                    #mail {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 140%;
+                        color: #636B78;
+                        margin-bottom: 9px;
+                    }
+
+                    #e-mail {
+                        @include inputBlock();
+                    }
+
+                    .wrongText {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 120%;
+                        color: red;
+                        display: none;
+                    }
+                }
+
+                .input-name-part {
+                    margin-bottom: 9px;
+
+                    #user-name {
+                        @include inputBlock();
+                        margin-bottom: 20px;
+                    }
+
+                    #mail {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 140%;
+                        color: #636B78;
+                    }
+
+                    .wrongText2 {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 120%;
+                        color: red;
+                        display: none;
+                    }
+                }
+
+
+                .checkbox-block {
+                    margin-bottom: 30px;
+
+                    span {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 120%;
+                        color: #636B78;
+                        position: absolute;
+                        margin-top: 7px;
+                    }
+
+                    #check {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 20px;
+                    }
+
+                    .wrongText3 {
+                        font-family: 'Jost';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 120%;
+                        color: red;
+                        display: none;
+                    }
+                }
+
+                #btn {
+                    @include btn();
+                    background: #524336;
+                    color: #FAF6F2;
+                }
+
+                #btn:hover {
+                    @include btnHover();
+                }
+
+            }
+
+            #img-part {
+                max-width: 50%;
+                width: 100%;
+
+                img {
+                    max-width: 100%;
+                    width: 100%;
+                }
+            }
+
+        }
+    }
+
+    
+}

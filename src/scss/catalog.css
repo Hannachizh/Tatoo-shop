@@ -1,0 +1,291 @@
+.all-document {
+  max-width: 1920px;
+}
+.all-document .container2 {
+  background-color: #EEEEEE;
+  padding-top: 106px;
+}
+.all-document .container2 .top-part {
+  margin: 0 auto;
+  max-width: 1216px;
+}
+.all-document .container2 .top-part .tatoo-title {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: #3E424B;
+}
+.all-document .container2 .top-part .categories {
+  display: flex;
+}
+.all-document .container2 .top-part .categories .price-part {
+  display: flex;
+  margin-right: 50px;
+}
+.all-document .container2 .top-part .categories .price-part .price-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #636B78;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.all-document .container2 .top-part .categories .price-part .min-price {
+  margin-right: 3px;
+}
+.all-document .container2 .top-part .categories .price-part .min-price #min-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #3E424B;
+  width: 83px;
+  padding: 8px 22px 9px 22px;
+  border: 1px solid #3E424B;
+}
+.all-document .container2 .top-part .categories .price-part span {
+  margin-top: 8px;
+  margin-right: 3px;
+}
+.all-document .container2 .top-part .categories .price-part .max-price #max-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #3E424B;
+  width: 83px;
+  padding: 8px 22px 9px 22px;
+  border: 1px solid #3E424B;
+}
+.all-document .container2 .top-part .categories .in-stock-block {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 8px;
+}
+.all-document .container2 .top-part .categories .in-stock-block .in-stock-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #636B78;
+  margin-right: 20px;
+}
+.all-document .container2 .top-part .categories .in-stock-block #in-stock {
+  width: 20px;
+  height: 20px;
+}
+.all-document .container2 .top-part .categories .sort-blocks {
+  margin-top: -3px;
+}
+.all-document .container2 .top-part .categories .sort-blocks #sort-catalog {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 150%;
+  color: #3E424B;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  border: 0;
+}
+.all-document .container2 .catalog-body {
+  max-width: 1216px;
+  margin: 0 auto;
+  padding-top: 34px;
+}
+.all-document .container2 .catalog-body .cards {
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-document .container2 .catalog-body .cards .product-card {
+  max-width: 289px;
+  width: 100%;
+  background-color: #F5F5F5;
+  margin-bottom: 7px;
+  margin-right: 15px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-top-navigation {
+  padding-top: 30px;
+  z-index: 2;
+  position: relative;
+  margin-left: 30px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-top-navigation .card-like-icon {
+  margin-left: 51px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-top-navigation .not-active {
+  display: none;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-top-navigation .card-gold-heart {
+  margin-bottom: 6px;
+  margin-left: 55px;
+}
+.all-document .container2 .catalog-body .cards .product-card .product-photo-one {
+  position: relative;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-document .container2 .catalog-body .cards .product-card #card-photo-change {
+  text-align: center;
+  margin-bottom: 6px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-descr {
+  margin-left: 30px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-descr #descr {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 17px;
+  color: #3E424B;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-descr #price {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #BB8C5F;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-btn-box {
+  text-align: center;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-btn-box .card-btn {
+  border: 2px solid #BB8C5F;
+  font-size: 20px;
+  padding: 14px 42px 14px 42px;
+  color: #BB8C5F;
+  margin-bottom: 10px;
+}
+.all-document .container2 .catalog-body .cards .product-card .card-btn-box .card-btn:hover {
+  background: #BB8C5F;
+  transition: 0.8s;
+  color: #FAF6F2;
+}
+.all-document .container2 .btn-block {
+  text-align: center;
+}
+.all-document .container2 .btn-block .btn {
+  border: 2px solid #BB8C5F;
+  font-size: 20px;
+  padding: 19px 63px 23px 64px;
+  color: #BB8C5F;
+  margin-bottom: 178px;
+}
+.all-document .container2 .btn-block .btn:hover {
+  background: #BB8C5F;
+  transition: 0.8s;
+  color: #FAF6F2;
+}
+.all-document .bottom-container {
+  padding-top: 139px;
+  background-color: #050402;
+  padding-bottom: 89px;
+}
+.all-document .bottom-container footer {
+  display: flex;
+  justify-content: center;
+}
+.all-document .bottom-container footer .collumn-one .under-footer-logo-text {
+  padding-top: 52px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .collumn-two {
+  list-style: none;
+  margin-left: 71px;
+  margin-right: 80px;
+}
+.all-document .bottom-container footer .collumn-two li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .collumn-three {
+  list-style: none;
+  margin-right: 208px;
+}
+.all-document .bottom-container footer .collumn-three li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .column-four .line-contacts {
+  display: flex;
+  margin-bottom: 12px;
+}
+.all-document .bottom-container footer .column-four .line-contacts p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-top: 6px;
+}
+.all-document .bottom-container footer .column-four .line-contacts #viber {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.all-document .bottom-container footer .column-four .work-time {
+  margin-bottom: 32px;
+}
+.all-document .bottom-container footer .column-four .work-time p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #636B78;
+}
+.all-document .bottom-container footer .column-four .bottom-mail {
+  display: flex;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #img-mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #mail-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+}/*# sourceMappingURL=catalog.css.map */

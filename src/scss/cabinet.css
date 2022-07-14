@@ -1,0 +1,229 @@
+.all-document {
+  max-width: 1920px;
+}
+.all-document .container2 {
+  background-color: #EEEEEE;
+  padding-top: 106px;
+  padding-bottom: 140px;
+}
+.all-document .container2 h1 {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  margin-bottom: 40px;
+  color: #3E424B;
+  text-align: center;
+}
+.all-document .container2 .user-info {
+  display: block;
+  max-width: 840px;
+  margin: 0 auto;
+  border: 1px solid #BB8C5F;
+}
+.all-document .container2 .user-info .cabinet-user-name-block {
+  display: flex;
+}
+.all-document .container2 .user-info .cabinet-user-name-block .cabinet-user-name-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #636B78;
+  margin-bottom: 9px;
+}
+.all-document .container2 .user-info .cabinet-user-name-block .cabinet-user-name {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #050402;
+  margin-bottom: 9px;
+  margin-left: 27px;
+}
+.all-document .container2 .user-info .cabinet-user-phone-block {
+  display: flex;
+}
+.all-document .container2 .user-info .cabinet-user-phone-block .cabinet-user-phone-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #636B78;
+  margin-bottom: 9px;
+}
+.all-document .container2 .user-info .cabinet-user-phone-block .cabinet-user-phone {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #050402;
+  margin-bottom: 9px;
+  margin-left: 27px;
+}
+.all-document .container2 .user-info .cabinet-user-mail-block {
+  display: flex;
+}
+.all-document .container2 .user-info .cabinet-user-mail-block .cabinet-user-mail-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #636B78;
+  margin-bottom: 9px;
+}
+.all-document .container2 .user-info .cabinet-user-mail-block .cabinet-user-mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #050402;
+  margin-bottom: 9px;
+  margin-left: 27px;
+}
+.all-document .container2 .user-info .cabinet-user-city-block {
+  display: flex;
+}
+.all-document .container2 .user-info .cabinet-user-city-block .cabinet-user-city-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #636B78;
+  margin-bottom: 9px;
+}
+.all-document .container2 .user-info .cabinet-user-city-block .cabinet-user-city {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #050402;
+  margin-bottom: 9px;
+  margin-left: 27px;
+}
+.all-document .container2 .user-info .cabinet-user-adress-block {
+  display: flex;
+}
+.all-document .container2 .user-info .cabinet-user-adress-block .cabinet-user-adress-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #636B78;
+  margin-bottom: 9px;
+}
+.all-document .container2 .user-info .cabinet-user-adress-block .cabinet-user-adress {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #050402;
+  margin-bottom: 9px;
+  margin-left: 27px;
+}
+.all-document .bottom-container {
+  padding-top: 139px;
+  background-color: #050402;
+  padding-bottom: 89px;
+}
+.all-document .bottom-container footer {
+  display: flex;
+  justify-content: center;
+}
+.all-document .bottom-container footer .collumn-one .under-footer-logo-text {
+  padding-top: 52px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .collumn-two {
+  list-style: none;
+  margin-left: 71px;
+  margin-right: 80px;
+}
+.all-document .bottom-container footer .collumn-two li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .collumn-three {
+  list-style: none;
+  margin-right: 208px;
+}
+.all-document .bottom-container footer .collumn-three li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .column-four .line-contacts {
+  display: flex;
+  margin-bottom: 12px;
+}
+.all-document .bottom-container footer .column-four .line-contacts p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-top: 6px;
+}
+.all-document .bottom-container footer .column-four .line-contacts #viber {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.all-document .bottom-container footer .column-four .work-time {
+  margin-bottom: 32px;
+}
+.all-document .bottom-container footer .column-four .work-time p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #636B78;
+}
+.all-document .bottom-container footer .column-four .bottom-mail {
+  display: flex;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #img-mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #mail-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+}/*# sourceMappingURL=cabinet.css.map */

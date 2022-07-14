@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="all-document">
+        <%= require ('html-loader!./templates/head.html').default %>
+        
+
+        <div class="container2 ">
+            <div class="first-part-container">
+                <div class="first-part">
+                    <div id="categories-menu">
+                        <div class="categories-block hits">
+                            <p class="categories ">Хиты продаж</p>
+                            <img src="images/bottom-border.svg" class="categories-img" id="img-one">
+                        </div>
+
+                        <div class="categories-block popular">
+                            <p class="categories ">Самые популярные</p>
+                            <img src="images/bottom-border.svg" class="categories-img" id="img-two">
+                        </div>
+
+                        <div class="categories-block new">
+                            <p class="categories active-category ">Новые поступления</p>
+                            <img src="images/bottom-border.svg" class="categories-img active-img" id="img-three">
+                        </div>
+
+                        <div class="categories-block discont">
+                            <p class="categories ">Акционерные товары</p>
+                            <img src="images/bottom-border.svg" class="categories-img" id="img-four">
+                        </div>
+
+                    </div>
+                    <div class="products-block">
+
+                    </div>
+                    <div class="btn-block">
+                        <button class="btn open-catalog-btn">Смотреть каталог</button>
+                    </div>
+                </div>
+                <div class="catalog-container">
+                    <h4>Каталог</h4>
+                    <div class="catalog-blocks">
+                        <div id="block1" class="set">
+                            <img src="./images/tatooSets.jpg">
+                        </div>
+                        <div id="block2" class="taker">
+                            <img src="./images/takers.png">
+                        </div>
+                        <div id="block3" class="mashine">
+                            <img src="./images/mashins.png">
+                        </div>
+                        <div id="block4" class="wire">
+                            <img src="./images/wire.png">
+                        </div>
+                        <div id="block5" class="paint">
+                            <img src="./images/paints.png">
+                        </div>
+                        <div id="block6" class="blocks">
+                            <img src="./images/blocks.png">
+                        </div>
+                        <div id="block7" class="tips">
+                            <img src="./images/tip.png">
+                        </div>
+                        <div id="block8" class="needles">
+                            <img src="./images/igl.png">
+                        </div>
+                        <div id="block9" class="protaction">
+                            <img src="./images/using.png">
+                        </div>
+                        <div id="block10" class="accessories">
+                            <img src="./images/accessories.png">
+                        </div>
+                        <div id="block11" class="laptop">
+                            <img src="./images/laptotop.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brends">
+                    <div class="paints paint">
+                        <h4>Краски Lip Nitn</h4>
+                        <p class="paint">Смотреть в каталоге</p>
+                        <img src="./images/line10.svg">
+                    </div>
+                    <div class="mashins">
+                        <h4>Foxx viper —хит 2021 года</h4>
+                        <p class="allHits">Смотреть в каталоге</p>
+                        <img src="./images/line10.svg">
+                    </div>
+                </div>
+                <div class="about-block">
+                    <div class="photo-part">
+                        <img src="./images/models.jpg">
+                    </div>
+                    <div id="text-part">
+                        <h3>Тату магазин Mr. Driskell</h3>
+                        <p id="top-part">Приветствуем вас в Tattoo Mall — в нашем тату магазине собираются энтузиасты
+                            индустрии, профессиональные мастера и новички, которые только делают первые шаги в тату
+                            искусстве. Мы знаем, насколько важно грамотно и точно подобрать инструменты для продуктивных
+                            тату сеансов, и помогаем быстро найти то, что поможет их сделать именно такими.
+                        </p>
+                        <p id="bottom-part">В нашем ассортименте не просто тату оборудование, это буквально целая
+                            команда
+                            из грамотных и действительно эффективных помощников на вашем рабочем столе. Пройдя этап
+                            долгих
+                            разработок и бесчисленных тестов под пристальным взглядом отечественных машиностроителей,
+                            космецевтов и брендов с мировым именем, эти товары нарабатывали опыт и каждый день
+                            становились
+                            лучше, чтобы показать, на что они способны, и помочь раскрыть ваш потенциал.</p>
+                        <button class="btn">О компании</button>
+                    </div>
+                </div>
+                <div class="subscribe-form">
+                    <div class="form-part">
+
+                        <h4>Узнавайте первыми</h4>
+                        <p class="subsc-text">Подпишитесь на новостную рассылку с самыми интересными новостями и акциями
+                        </p>
+                        <form name="confirmForm">
+                            <div class="input-mail-part">
+                                <p id="mail">Эл. почта</p>
+                                <input type="text" id="e-mail" name="eMail" placeholder="hannachizh@mail.ru">
+                                <p class="wrongText">Вы забыли про @</p>
+                            </div>
+                            <div class="input-name-part">
+                                <p id="mail">Имя</p>
+                                <input type="text" id="user-name" name="userName" placeholder="Hanna"><br>
+                                <p class="wrongText2">Можно ввести только буквы</p>
+                            </div>
+                            <div class="checkbox-block">
+                                <input type="checkbox" id="check">
+                                <span>Вы соглашаетесь на обработку ваших персональных данных</span>
+                                <p class="wrongText3">Подтвердите обработку данных</p>
+                            </div>
+                            <input type="submit" value="Подписаться" id="btn">
+                        </form>
+
+                    </div>
+                    <div id="img-part">
+                        <img src="./images/tatoohand.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <footer>
+                <div class="collumn-one">
+                    <div class="emblem ">
+                        <img src="images/footer-logo.svg" class="logo-container">
+                    </div>
+                    <p class="under-footer-logo-text">Политика конфенедциальности</p>
+                </div>
+                <ul class="collumn-two">
+                    <li class="error-page">Промокоды</li>
+                    <li class="error-page">Скидки</li>
+                    <li class="error-page">Помощь</li>
+                </ul>
+                <ul class="collumn-three">
+                    <li>О нас</li>
+                    <li>Контакты</li>
+                </ul>
+                <div class="column-four">
+                    <div class="line-contacts">
+                        <img src="images/CallBottom.svg" id="phone">
+                        <p>80447935087</p>
+                        <img src="images/Telegram_black.svg" id="telegram">
+                        <img src="images/Viber.svg" id="viber">
+                        <img src="images/whatsApp.svg" id="whatsApp">
+                    </div>
+                    <div class="work-time">
+                        <p>Время работы: с 9:00 до 20:00 по мск</p>
+                    </div>
+                    <div class="bottom-mail">
+                        <p id="img-mail">&#128386;</p>
+                        <p id="mail-text">Mr.Driskell@mail.ru</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+</body>
+
+</html>

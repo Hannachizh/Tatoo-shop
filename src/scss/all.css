@@ -1,0 +1,1819 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.all-document {
+  max-width: 1920px;
+}
+.all-document .container1 {
+  background-color: black;
+  max-width: 1920px;
+}
+.all-document .container1 header {
+  max-width: 1920px;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: black;
+}
+.all-document .container1 header .top-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 34px;
+  width: 100%;
+  margin-bottom: 11px;
+  position: fixed;
+  background-color: black;
+  z-index: 5;
+}
+.all-document .container1 header .top-header .head-contacts {
+  margin-right: 56px;
+}
+.all-document .container1 header .top-header .head-contacts .number-container {
+  margin-left: auto;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .number {
+  display: flex;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .number img {
+  margin-right: 5px;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .number #numb {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FAF6F2;
+  font-size: 15px;
+  padding-top: 3px;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .networks {
+  display: flex;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .networks #messenger {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #D0D0D0;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.all-document .container1 header .top-header .head-contacts .number-container .networks #messenger:hover {
+  color: #BB8C5F;
+  transition: 0.8s;
+}
+.all-document .container1 header .top-header .mail-container {
+  margin-right: 183px;
+  display: flex;
+}
+.all-document .container1 header .top-header .mail-container img {
+  margin-right: 14px;
+  max-width: 28px;
+  width: 100%;
+  margin-bottom: auto;
+  margin-top: 6px;
+}
+.all-document .container1 header .top-header .mail-container .mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FAF6F2;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.all-document .container1 header .top-header .logo-container {
+  margin-right: 326px;
+  margin-top: -20px;
+  max-width: 170px;
+  width: 100%;
+}
+.all-document .container1 header .top-header .regester-container {
+  display: flex;
+}
+.all-document .container1 header .top-header .regester-container .summ {
+  display: none;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FAF6F2;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.all-document .container1 header .top-header .regester-container .trash-container {
+  display: flex;
+  margin-right: 38px;
+}
+.all-document .container1 header .top-header .regester-container .trash-container .trash-icon {
+  max-width: 28px;
+  width: 100%;
+  margin-bottom: auto;
+}
+.all-document .container1 header .top-header .regester-container .trash-container .counter-trash-container {
+  background: #BB8C5F;
+  text-align: center;
+  margin-left: -10px;
+  margin-top: -15px;
+  max-height: 22px;
+}
+.all-document .container1 header .top-header .regester-container .trash-container .counter-trash-container .trash-counter {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #FAF6F2;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.all-document .container1 header .top-header .regester-container .like-container {
+  margin-right: 50px;
+}
+.all-document .container1 header .trash-modal {
+  width: 350px;
+  height: 401px;
+  max-width: 1920px;
+  position: absolute;
+  margin-top: -32px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: 65%;
+  transition: opacity 0.3s, visibility 0.3s;
+  position: fixed;
+  margin-top: 85px;
+  z-index: 5;
+}
+.all-document .container1 header .trash-modal .cross-trash {
+  position: fixed;
+  text-align: right;
+  width: 340px;
+  margin-top: 8px;
+}
+.all-document .container1 header .trash-modal .catalog-name-part h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  color: #3E424B;
+  font-size: 25px;
+  margin-top: 14px;
+}
+.all-document .container1 header .trash-modal .catalog-name-part img {
+  margin-bottom: 19px;
+  width: 100%;
+  max-width: 116px;
+}
+.all-document .container1 header .trash-modal #trash-devide-line {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part {
+  max-height: 246.73px;
+  overflow: auto;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block {
+  display: flex;
+  margin-bottom: 5px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-product-img-part {
+  text-align: left;
+  margin-left: 4px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-product-img-part .trash-product-img {
+  width: 60px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-product-text-block {
+  max-width: 140px;
+  margin-left: 11px;
+  margin-top: 13px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-product-text-block .trash-product-text {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 12px;
+  line-height: 100%;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-counter-block {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-counter-block .trash-minus-product {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 23px;
+  line-height: 100%;
+  color: #3E424B;
+  margin-right: 6px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-counter-block .trash-numb-product {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 19px;
+  line-height: 100%;
+  margin-top: 3px;
+  margin-right: 4px;
+  color: #3E424B;
+  background-color: #FAF6F2;
+  width: 20px;
+  height: 15px;
+  border: 0;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-counter-block .trash-plus-product {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 19px;
+  line-height: 100%;
+  color: #3E424B;
+  margin-top: 2px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-price-product-block {
+  margin-top: 18px;
+  margin-left: 14px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-price-product-block .counter-numb {
+  display: none;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .trash-price-product-block p {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 16px;
+  line-height: 100%;
+  color: #3E424B;
+  margin-top: 2px;
+}
+.all-document .container1 header .trash-modal .catalog-body-part .trash-product-block .cross-trash-item {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block {
+  margin-top: -3px;
+  position: absolute;
+  top: 351px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part {
+  display: flex;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .btn-trash-change-part {
+  margin-left: 19px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .btn-trash-change-part .btn-trash-change-img {
+  width: 20px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .btn-trash-sent-part {
+  margin-left: 80px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .btn-trash-sent-part .btn-trash-sent {
+  border: 1px solid #BB8C5F;
+  font-size: 20px;
+  padding: 4px 6px 4px 6px;
+  color: #BB8C5F;
+  margin-top: -6px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .result-price-block {
+  margin-left: 64px;
+}
+.all-document .container1 header .trash-modal .trash-bottom-block .trash-bottom-part .result-price-block p {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 100%;
+  color: #3E424B;
+  margin-top: 2px;
+}
+.all-document .container1 header .like-modal {
+  width: 350px;
+  height: 401px;
+  max-width: 1920px;
+  position: absolute;
+  margin-top: -32px;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: 70%;
+  transition: opacity 0.3s, visibility 0.3s;
+  position: fixed;
+  margin-top: 85px;
+  z-index: 5;
+}
+.all-document .container1 header .like-modal .cross-like {
+  position: fixed;
+  text-align: right;
+  width: 340px;
+  margin-top: 8px;
+}
+.all-document .container1 header .like-modal .catalog-name-part h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  color: #3E424B;
+  font-size: 25px;
+  margin-top: 14px;
+}
+.all-document .container1 header .like-modal .catalog-name-part img {
+  margin-bottom: 19px;
+  width: 100%;
+  max-width: 208px;
+}
+.all-document .container1 header .like-modal #trash-devide-line {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+.all-document .container1 header .like-modal .catalog-body-part {
+  max-height: 252px;
+  overflow: auto;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block {
+  display: flex;
+  margin-bottom: 5px;
+  justify-content: space-around;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-product-img-part {
+  text-align: left;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-product-img-part .trash-product-img {
+  width: 60px;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-product-text-block {
+  max-width: 140px;
+  margin-top: 13px;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-product-text-block .trash-product-text {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 12px;
+  line-height: 100%;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-price-product-block {
+  margin-top: 18px;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .trash-price-product-block p {
+  text-align: left;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 301;
+  font-size: 16px;
+  line-height: 100%;
+  color: #3E424B;
+  margin-top: 2px;
+}
+.all-document .container1 header .like-modal .catalog-body-part .trash-product-block .cross-like-item {
+  margin-top: 18px;
+}
+.all-document .container1 header .like-modal .trash-bottom-block {
+  margin-top: -3px;
+  position: absolute;
+  top: 351px;
+}
+.all-document .container1 header .like-modal .trash-bottom-block .btn-trash-change-part {
+  margin-left: 19px;
+}
+.all-document .container1 header .like-modal .trash-bottom-block .btn-trash-change-part .btn-trash-change-img {
+  width: 20px;
+}
+.all-document .container1 header .madal-choose-acc {
+  background-color: #F5F5F5;
+  max-width: 1216px;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.all-document .container1 header .madal-choose-acc .choose-acc {
+  position: fixed;
+  background: #f5f5f5;
+  height: 120px;
+  width: 200px;
+  margin-left: 1030px;
+  max-width: 1216px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  color: #3E424B;
+  font-size: 20px;
+  margin-top: 85px;
+}
+.all-document .container1 header .madal-choose-acc .choose-acc .cross-acc-choose {
+  position: fixed;
+  margin-left: 175px;
+  margin-top: 10px;
+}
+.all-document .container1 header .madal-choose-acc .choose-acc p {
+  margin-top: 16px;
+  margin-left: 10px;
+}
+.all-document .container1 header .acc-modal {
+  max-width: 1216px;
+  margin: 0 auto;
+  background-color: #FAF6F2;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.all-document .container1 header .acc-modal .sign-block {
+  position: fixed;
+  background-color: #FAF6F2;
+  width: 1216px;
+  height: 80%;
+  z-index: 3;
+  margin-top: 85px;
+}
+.all-document .container1 header .acc-modal .sign-block .cross-acc {
+  position: fixed;
+  text-align: right;
+  width: 1194px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-in-block {
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: #D0D0D0;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-in-block h5 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 115%;
+  color: #3E424B;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-in-block img {
+  margin-bottom: 7px;
+  width: 203px;
+  display: block;
+  margin: 0 auto;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-up-block {
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background: #D0D0D0;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-up-block h5 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 115%;
+  color: #3E424B;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .sign-up-block img {
+  margin-bottom: 7px;
+  width: 203px;
+  display: none;
+  margin: 0 auto;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-head .active-sign {
+  background-color: #FAF6F2;
+  transition: 0.5s;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body {
+  display: block;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-nic-part #nic {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-nic-part .nick-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-nic-part .nick-valid #userNic {
+  width: 571px;
+  height: 70px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-nic-part .nick-valid .wrong-text1 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-pasward-part #pasward-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-pasward-part .mail-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-pasward-part .mail-valid #pasward {
+  width: 571px;
+  height: 70px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form .input-pasward-part .mail-valid .wrong-text2 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 36px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form #btn-logIn {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 115%;
+  border: 2px solid #BB8C5F;
+  padding: 19px 63px 23px 64px;
+  color: #3E424B;
+  background: #FAF6F2;
+  margin-left: 5%;
+  margin-top: 3%;
+  transition: 0.5s;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-in-body #sign-in-form #btn-logIn:hover {
+  color: #FAF6F2;
+  background-color: #BB8C5F;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body {
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form {
+  overflow: auto;
+  max-height: 450px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-name-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-name-part .new-name-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-name-part .new-name-valid #new-user-name {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-name-part .new-name-valid .wrongText10 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-fathername-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-fathername-part .new-user-fathername {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-fathername-part .new-user-fathername #user-fathername {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-fathername-part .new-user-fathername .wrongText12 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-Lastname-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-Lastname-part .user-Lastname-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-Lastname-part .user-Lastname-valid #user-Lastname {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-Lastname-part .user-Lastname-valid .wrongText11 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-newNic-part #newNic {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-newNic-part .newNic-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-newNic-part .newNic-valid #newUserNic {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-newNic-part .newNic-valid .wrong-text3 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-mail-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-mail-part .new-eMail {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-mail-part .new-eMail #new-e {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-mail-part .new-eMail .wrongText13 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-city-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-city-part .new-city {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-city-part .new-city #city {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-city-part .new-city .wrongText14 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-adress-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-adress-part .new-adress {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-adress-part .new-adress #adress {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-adress-part .new-adress .wrongText15 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-neWasward-part #newPasward-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-neWasward-part .newPasward-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-neWasward-part .newPasward-valid #newPasward {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-neWasward-part .newPasward-valid .wrong-text4 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 36px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-repeatWasward-part #repeatWasward-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-repeatWasward-part .repeatWasward-valid {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-repeatWasward-part .repeatWasward-valid #repeatWasward {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .input-repeatWasward-part .repeatWasward-valid .wrong-text5 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 36px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .new-checkbox-block {
+  margin-bottom: 16px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .new-checkbox-block #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 4%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .new-checkbox-block .new-checkbox {
+  display: flex;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .new-checkbox-block .new-checkbox #checkInp {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 5%;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form .new-checkbox-block .new-checkbox .wrongText16 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form #btn-logUp {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 115%;
+  border: 2px solid #BB8C5F;
+  padding: 19px 63px 23px 64px;
+  color: #3E424B;
+  background: #FAF6F2;
+  margin-left: 5%;
+  margin-top: 1%;
+  transition: 0.5s;
+}
+.all-document .container1 header .acc-modal .sign-block .sign-up-body #sign-up-form #btn-logUp:hover {
+  color: #FAF6F2;
+  background-color: #BB8C5F;
+}
+.all-document .container1 header .send-products-modal {
+  max-width: 1216px;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.all-document .container1 header .send-products-modal .send-block {
+  position: fixed;
+  width: 1216px;
+  height: 80%;
+  z-index: 3;
+  background-color: #FAF6F2;
+  margin-top: 85px;
+}
+.all-document .container1 header .send-products-modal .send-block .cross-send {
+  position: fixed;
+  text-align: right;
+  width: 1194px;
+  margin-top: 13px;
+  font-size: 20px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-head {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-head h5 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 115%;
+  color: #3E424B;
+}
+.all-document .container1 header .send-products-modal .send-block img {
+  width: 1216px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body {
+  margin-top: 20px;
+  overflow: auto;
+  max-height: 400px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table {
+  margin: 0 auto;
+  width: 900px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #3E424B;
+  border-bottom: 1px solid;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr .collumn1 {
+  width: 315px;
+  text-align: left;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr .collumn2 {
+  width: 85px;
+  text-align: left;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr .collumn3 {
+  width: 100px;
+  text-align: left;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr .collumn4 {
+  width: 100px;
+  text-align: left;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .body-tr-tabble {
+  opacity: auto;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .body-tr-tabble .body-tr td {
+  padding-top: 20px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #3E424B;
+  padding-bottom: 20px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr-res {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #3E424B;
+  border-top: 1px solid;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr-res .collumn-end {
+  text-align: left;
+  width: 315px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr-res .collumn-noth {
+  text-align: left;
+  width: 85px;
+}
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr-res .collumn-numb,
+.all-document .container1 header .send-products-modal .send-block .send-body table .head-tr-res .collumn-price {
+  text-align: left;
+  width: 100px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form {
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form {
+  overflow: auto;
+  max-height: 400px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-name-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-name-part .new-name-valid {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-name-part .new-name-valid #new-user-name {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-name-part .new-name-valid .wrongText20 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-fathername-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-fathername-part .new-user-fathername {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-fathername-part .new-user-fathername #user-fathername {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-fathername-part .new-user-fathername .wrongText22 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-Lastname-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-Lastname-part .user-Lastname-valid {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-Lastname-part .user-Lastname-valid #user-Lastname {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-Lastname-part .user-Lastname-valid .wrongText21 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-newNic-part #newNic {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-newNic-part .newNic-valid {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-newNic-part .newNic-valid #newUserNic {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-newNic-part .newNic-valid .wrong-text23 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-mail-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-mail-part .new-eMail {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-mail-part .new-eMail #new-e {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-mail-part .new-eMail .wrongText24 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-city-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-city-part .new-city {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-city-part .new-city #city {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-city-part .new-city .wrongText25 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-adress-part #mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 110%;
+  color: #3E424B;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 4px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-adress-part .new-adress {
+  display: flex;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-adress-part .new-adress #adress {
+  width: 571px;
+  height: 65px;
+  background-color: #F5F5F5;
+  border: 1px solid #BB8C5F;
+  margin-bottom: 13px;
+  margin-left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+.all-document .container1 header .send-products-modal .send-block .taker-form .send-products-form .input-adress-part .new-adress .wrongText26 {
+  color: red;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  margin-top: 22px;
+  margin-left: 3%;
+  display: none;
+}
+.all-document .container1 header .send-products-modal .send-block .buttom-buttons {
+  text-align: center;
+}
+.all-document .container1 header .send-products-modal .send-block .buttom-buttons .send-products-style {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 115%;
+  border: 2px solid #BB8C5F;
+  padding: 14px 48px 14px 45px;
+  color: #3E424B;
+  background: #FAF6F2;
+  margin-left: 5%;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+.all-document .container1 header .send-products-modal .send-block .buttom-buttons .send-products-style:hover {
+  color: #FAF6F2;
+  background-color: #BB8C5F;
+}
+.all-document .container1 header .send-products-modal .send-block .buttom-buttons .send-products-btn {
+  display: none;
+}
+.all-document .container1 header .active {
+  visibility: visible;
+  opacity: 1;
+}
+.all-document .container1 header .divide-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 118px;
+}
+.all-document .container1 header .bottom-head-container {
+  max-width: 1920px;
+  display: flex;
+  margin-top: 13px;
+}
+.all-document .container1 header .bottom-head-container .bottom-head {
+  display: flex;
+  margin: 0 auto;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .catalog {
+  display: flex;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .catalog #catalog-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 25px;
+  color: #FAF6F2;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .catalog #burger {
+  max-width: 28px;
+  width: 100%;
+  margin-top: -6px;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .search {
+  display: inline-flex;
+  border: 1px solid #524336;
+  padding: 10px;
+  margin-left: 60px;
+  margin-bottom: 12px;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .search .search-field {
+  width: 418px;
+  border: 0;
+  background-color: black;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .search .search-field:focus {
+  outline: none;
+  color: #FAF6F2;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .search .search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  order: -1;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9px;
+}
+.all-document .container1 header .bottom-head-container .bottom-head .menu #navigation {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 17px;
+  color: #FAF6F2;
+  margin-left: 50px;
+}
+.all-document .container1 .main-container {
+  max-width: 1920px;
+}
+.all-document .container1 .main-container .end-block {
+  margin: 0 auto;
+  max-width: 648px;
+  display: none;
+  margin-top: 100px;
+}
+.all-document .container1 .main-container .end-block .result-text {
+  position: fixed;
+  margin-top: 10px;
+  z-index: 5;
+  background: #FAF6F2;
+  width: 100%;
+  height: 194px;
+  max-width: 598px;
+}
+.all-document .container1 .main-container .end-block .result-text .cross-res {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.all-document .container1 .main-container .end-block .result-text .text-end {
+  margin-left: 175px;
+  margin-top: 44px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #3E424B;
+}
+.all-document .container1 .main-container .end-block .result-text .naw-end-img {
+  margin-left: 167px;
+  width: 265px;
+}
+.all-document .container1 .naw-catalog {
+  max-width: 1216px;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block {
+  background-color: #FAF6F2;
+  position: fixed;
+  width: 618px;
+  height: 441px;
+  z-index: 5;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .cross-catal {
+  position: fixed;
+  text-align: right;
+  width: 605px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-top-part {
+  padding-top: 30px;
+  padding-left: 48px;
+  margin-bottom: 16px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-top-part .naw-catalog-categories-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 19px;
+  line-height: 130%;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-top-part .naw-catalog-categories-img {
+  margin-bottom: 8px;
+  width: 119px;
+  margin-left: -5px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-devider-block {
+  margin-bottom: 44px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-body {
+  display: flex;
+  margin-left: 50px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-body p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 350;
+  font-size: 19px;
+  line-height: 130%;
+  margin-bottom: 18px;
+}
+.all-document .container1 .naw-catalog .naw-catalog-block .naw-catalog-body p:hover {
+  color: #BB8C5F;
+  transition: 0.5s;
+}
+.all-document .container1 .naw-catalog-active {
+  opacity: 1;
+  visibility: visible;
+}
+.all-document .container1 .main-part {
+  background-image: url(../images/backHeader.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-top: 113px;
+  background-repeat: no-repeat;
+  max-width: 1216px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 203px;
+}
+.all-document .container1 .main-part h1 {
+  width: 100%;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 100%;
+  color: #BB8C5F;
+  margin-bottom: 37px;
+}
+.all-document .container1 .main-part .after-main-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 25px;
+  color: #FAF6F2;
+}
+.all-document .container1 .main-part .btn {
+  border: 2px solid #BB8C5F;
+  font-size: 20px;
+  padding: 19px 63px 23px 64px;
+  background: #524336;
+  color: #FAF6F2;
+  margin-top: 62px;
+}
+.all-document .container1 .main-part .btn:hover {
+  background: #BB8C5F;
+  transition: 0.8s;
+}
+.all-document .bottom-container {
+  padding-top: 139px;
+  background-color: #050402;
+  padding-bottom: 89px;
+}
+.all-document .bottom-container footer {
+  display: flex;
+  justify-content: center;
+}
+.all-document .bottom-container footer .collumn-one .under-footer-logo-text {
+  padding-top: 52px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .collumn-two {
+  list-style: none;
+  margin-left: 71px;
+  margin-right: 80px;
+}
+.all-document .bottom-container footer .collumn-two li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .collumn-three {
+  list-style: none;
+  margin-right: 208px;
+}
+.all-document .bottom-container footer .collumn-three li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 133.5%;
+  color: #E9ECF1;
+  margin-bottom: 31px;
+}
+.all-document .bottom-container footer .column-four .line-contacts {
+  display: flex;
+  margin-bottom: 12px;
+}
+.all-document .bottom-container footer .column-four .line-contacts p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+  margin-right: 25px;
+  margin-top: 6px;
+}
+.all-document .bottom-container footer .column-four .line-contacts #viber {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.all-document .bottom-container footer .column-four .work-time {
+  margin-bottom: 32px;
+}
+.all-document .bottom-container footer .column-four .work-time p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #636B78;
+}
+.all-document .bottom-container footer .column-four .bottom-mail {
+  display: flex;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #img-mail {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+}
+.all-document .bottom-container footer .column-four .bottom-mail #mail-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FAF6F2;
+  margin-left: 10px;
+}/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Forum&family=Jost:wght@300;400;500;600;700&family=Montserrat:wght@400;500&display=swap"
+        rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="all-document">
+        <div class="container1">
+            <header>
+                <div class="top-header">
+                    <div class="head-contacts">
+                        <div class="number-container">
+                            <div class="number">
+                                <img src="images/call.svg">
+                                <span id="numb">+375 44 793-50-87</span>
+                            </div>
+                            <div class="networks">
+                                <p id="messenger">Viber</p>
+                                <p id="messenger">Whats Upp</p>
+                                <p id="messenger">Telegram</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mail-container">
+                        <img src="images/union.svg">
+                        <a class="mail" href="mailto:hannachizh@mail.ru">Hannachizh@mail.ru</a>
+                    </div>
+                    <div class="logo-container">
+                        <img src="images/logo.svg">
+                    </div>
+                    <div class="regester-container">
+                        <p class="summ"><span class="summ-numb">0</span> $</p>
+                        <div class="trash-container">
+                            <img src="images/trash-icon.svg" class="trash-icon">
+                            <div class="counter-trash-container">
+                                <p class="trash-counter">0</p>
+                            </div>
+                        </div>
+
+                        <div class="like-container">
+                            <img src="images/like-icon.svg">
+                        </div>
+                        <div class="account-ikon-container">
+                            <img src="images/reger-icon.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="trash-modal">
+                    <p class="cross-trash">&#10007;</p>
+                    <div class="catalog-name-part">
+                        <h3>Корзина</h3>
+                        <img src="./images/line10.svg">
+                    </div>
+                    <img src="images/dividers.svg" id="trash-devide-line">
+                    <div class="catalog-body-part catalog-trash">
+
+                    </div>
+
+                    <div class="trash-bottom-block">
+                        <img src="images/dividers.svg" id="trash-devide-line">
+                        <div class="trash-bottom-part">
+                            <div class="btn-trash-change-part">
+                                <img src="images/changeParametrsImg.svg" class="btn-trash-change-img"
+                                    title="удалить все продукты">
+                            </div>
+                            <div class="btn-trash-sent-part">
+                                <button class="btn-trash-sent">Заказать</button>
+                            </div>
+                            <div class="result-price-block">
+                                <p><span class="result-price">0</span>$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="like-modal">
+                    <p class="cross-like">&#10007;</p>
+                    <div class="catalog-name-part">
+                        <h3>Понравившееся</h3>
+                        <img src="./images/line10.svg">
+                    </div>
+                    <img src="images/dividers.svg" id="trash-devide-line">
+                    <div class="catalog-body-part catalog-like">
+
+                    </div>
+                    <div class="trash-bottom-block">
+                        <img src="images/dividers.svg" id="trash-devide-line">
+                        <div class="btn-like-delete-body">
+                            <img src="images/changeParametrsImg.svg" class="btn-trash-change-img">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="madal-choose-acc">
+                    <div class="choose-acc">
+                        <p class="cross-acc-choose">&#10007;</p>
+                        <p id="In">Войти</p>
+                        <p id="Up">Зарегистрироваться</p>
+                        <p id="acc-text">Аккаунт</p>
+                    </div>
+                </div>
+
+                <div class="acc-modal">
+
+                    <div class="sign-block">
+                        <p class="cross-acc">&#10007;</p>
+                        <div class="sign-head">
+                            <div class="sign-in-block active-sign">
+                                <h5>Войти</h5>
+                                <img src="./images/bottom-border.svg" id="in-border">
+                            </div>
+                            <div class="sign-up-block">
+                                <h5>Регистрация</h5>
+                                <img src="./images/bottom-border.svg" id="up-border">
+                            </div>
+                        </div>
+                        <div class="sign-in-body">
+                            <form id="sign-in-form" name="signInForm" action="./cabinet.html">
+                                <div class="input-nic-part">
+                                    <p id="nic">Номер телефона</p>
+                                    <div class="nick-valid">
+                                        <input type="text" id="userNic" name="userNic" placeholder="Hanna"><br>
+                                        <p class="wrong-text1">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-pasward-part">
+                                    <p id="pasward-title">Пароль</p>
+                                    <div class="mail-valid">
+                                        <input type="text" id="pasward" name="pasward" placeholder="hannachizh@mail.ru">
+                                        <p class="wrong-text2">error</p>
+                                    </div>
+                                </div>
+
+                                <input type="submit" value="Подписаться" id="btn-logIn">
+                            </form>
+                        </div>
+                        <div class="sign-up-body">
+                            <form id="sign-up-form" name="signUpForm" action="./cabinet.html">
+                                <div class="input-name-part">
+                                    <p id="mail">Имя</p>
+                                    <div class="new-name-valid">
+                                        <input type="text" id="new-user-name" name="userName" placeholder="Hanna"><br>
+                                        <p class="wrongText10">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-Lastname-part">
+                                    <p id="mail">Фамилия</p>
+                                    <div class="user-Lastname-valid">
+                                        <input type="text" id="user-Lastname" name="userLastname"
+                                            placeholder="Chizh"><br>
+                                        <p class="wrongText11">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-fathername-part">
+                                    <p id="mail">Отчество</p>
+                                    <div class="new-user-fathername">
+                                        <input type="text" id="user-fathername" name="userfathername"
+                                            placeholder="Olegovna"><br>
+                                        <p class="wrongText12">error</p>
+                                    </div>
+
+
+                                </div>
+                                <div class="input-newNic-part">
+                                    <p id="newNic">Номер телефона</p>
+                                    <div class="newNic-valid">
+                                        <input type="text" id="newUserNic" name="userNicNew" placeholder="Hanna"><br>
+                                        <p class="wrong-text3">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-mail-part">
+                                    <p id="mail">Эл. почта</p>
+                                    <div class="new-eMail">
+                                        <input type="text" id="new-e" name="eMail" placeholder="hannachizh@mail.ru">
+                                        <p class="wrongText13">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-city-part">
+                                    <p id="mail">Город</p>
+                                    <div class="new-city">
+                                        <input type="text" id="city" name="city" placeholder="Minsk"><br>
+                                        <p class="wrongText14">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-adress-part">
+                                    <p id="mail">Адресс</p>
+                                    <div class="new-adress">
+                                        <input type="text" id="adress" name="adress" placeholder="..."><br>
+                                        <p class="wrongText15">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-neWasward-part">
+                                    <p id="newPasward-title">Пароль</p>
+                                    <div class="newPasward-valid">
+                                        <input type="text" id="newPasward" name="newPasward"
+                                            placeholder="hannachizh@mail.ru">
+                                        <p class="wrong-text4">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-repeatWasward-part">
+                                    <p id="repeatWasward-title">Повторить пароль</p>
+                                    <div class="repeatWasward-valid">
+                                        <input type="text" id="repeatWasward" name="repeatWasward"
+                                            placeholder="hannachizh@mail.ru">
+                                        <p class="wrong-text5">error</p>
+                                    </div>
+                                </div>
+                                <div class="new-checkbox-block">
+                                    <span id="mail">Вы соглашаетесь на обработку ваших персональных данных</span>
+                                    <div class="new-checkbox">
+                                        <input type="checkbox" id="checkInp">
+                                        <p class="wrongText16">error</p>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Подписаться" id="btn-logUp">
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="send-products-modal">
+                    <div class="send-block">
+                        <p class="cross-send">&#10007;</p>
+                        <div class="send-head">
+                            <h5>Отправка заказа</h5>
+                        </div>
+                        <img src="images/naw-catalog-devider.svg">
+                        <div class="send-body">
+                            <table class="confirm-table">
+                                <tr class="head-tr">
+                                    <th class="collumn1">Наиманование</th>
+                                    <th class="collumn2">Цена</th>
+                                    <th class="collumn3">Количество </th>
+                                    <th class="collumn4">Стоимость</th>
+                                </tr>
+                                <tbody class="body-tr-tabble">
+
+                                </tbody>
+                            </table>
+                            <table class="confirm-table">
+                                <tr class="head-tr-res">
+                                    <th class="collumn-end">Итого</th>
+                                    <th class="collumn-noth"></th>
+                                    <th class="collumn-numb">0</th>
+                                    <th class="collumn-price">0</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="taker-form">
+                            <form class="send-products-form" name="sendProductsForm">
+                                <div class="input-name-part">
+                                    <p id="mail">Имя</p>
+                                    <div class="new-name-valid">
+                                        <input type="text" id="new-user-name" name="userName" placeholder="Hanna"><br>
+                                        <p class="wrongText20">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-Lastname-part">
+                                    <p id="mail">Фамилия</p>
+                                    <div class="user-Lastname-valid">
+                                        <input type="text" id="user-Lastname" name="userLastname"
+                                            placeholder="Chizh"><br>
+                                        <p class="wrongText21">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-fathername-part">
+                                    <p id="mail">Отчество</p>
+                                    <div class="new-user-fathername">
+                                        <input type="text" id="user-fathername" name="userfathername"
+                                            placeholder="Olegovna"><br>
+                                        <p class="wrongText22">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-newNic-part">
+                                    <p id="newNic">Номер телефона</p>
+                                    <div class="newNic-valid">
+                                        <input type="text" id="newUserNic" name="userNicNew" placeholder="Hanna"><br>
+                                        <p class="wrong-text23">error</p>
+                                    </div>
+                                </div>
+                                <div class="input-mail-part">
+                                    <p id="mail">Эл. почта</p>
+                                    <div class="new-eMail">
+                                        <input type="text" id="new-e" name="eMail" placeholder="hannachizh@mail.ru">
+                                        <p class="wrongText24">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-city-part">
+                                    <p id="mail">Город</p>
+                                    <div class="new-city">
+                                        <input type="text" id="city" name="city" placeholder="Minsk"><br>
+                                        <p class="wrongText25">error</p>
+                                    </div>
+
+                                </div>
+                                <div class="input-adress-part">
+                                    <p id="mail">Адресс</p>
+                                    <div class="new-adress">
+                                        <input type="text" id="adress" name="adress" placeholder="..."><br>
+                                        <p class="wrongText26">error</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="buttom-buttons">
+                            <button class="right-products send-products-style">Заказ верный</button>
+                            <button class="send-products-btn send-products-style"> Заказать</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="divide-container">
+                    <img src="images/dividers.svg" id="line-divide">
+                </div>
+                <div class="bottom-head-container">
+                    <div class="bottom-head">
+                        <div class="catalog">
+                            <p id="catalog-text">Каталог</p>
+                            <img src="images/burger-icon.svg" id="burger">
+                        </div>
+                        <div class="search">
+                            <input type="text" class="search-field" placeholder="Поиск">
+                            <img src="images/Search.svg" alt="" class="search-icon">
+                        </div>
+                        <div class="menu">
+                            <p id="navigation" class="error-page">Промокоды</p>
+                            <p id="navigation" class="error-page">Cкидки</p>
+                            <p id="navigation" class="error-page">Помощь</p>
+                            <p id="navigation" class="error-page">О нас</p>
+                            <p id="navigation" class="error-page">Контакты</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main-container">
+                <div class="end-block">
+                    <div class="result-text">
+
+                        <p class="cross-res">&#10007;</p>
+                        <h4 class="text-end">Ваш заказ принят</h4>
+                        <img src="images/catalog-naw-text-line.svg" class="naw-end-img">
+                    </div>
+
+                </div>
+
+                <div class="naw-catalog">
+
+                    <div class="naw-catalog-block">
+                        <p class="cross-catal">&#10007;</p>
+                        <div class="naw-catalog-top-part">
+                            <p class="naw-catalog-categories-text">По категории</p>
+                            <img src="images/catalog-naw-text-line.svg" class="naw-catalog-categories-img">
+                        </div>
+                        <div class="naw-catalog-devider-block">
+                            <img src="images/naw-catalog-devider.svg">
+                        </div>
+                        <div class="naw-catalog-body">
+                            <div class="column-one">
+                                <p class="category-one tips">Тату наконечники</p>
+                                <p class="category-two blocks">Блоки питания</p>
+                                <p class="category-three wire">Педали и провода</p>
+                                <p class="category-four accessories">Аксессуары</p>
+                                <p class="category-five laptop">Принтеры и планшеты</p>
+                                <p class="category-six protaction">Защита, емкости и расходные материалы</p>
+                            </div>
+                            <div class="column-two">
+                                <p class="category-seven set">Наборы для татуировок</p>
+                                <p class="category-eight mashine">Тату машинки</p>
+                                <p class="category-nine paint">Тату краски</p>
+                                <p class="category-ten needles">Тату иглы</p>
+                                <p class="category-elewen taker">Тату держатели</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class='container2'>
+            <div class="main-text">
+                <div class="text">
+                    <h1>Ошибка 404!</h1>
+                    <p>Эта страница не найдена, мы уже работаем, чтобы ее восстановить!</p>
+                    <button class="btn-return logo-container">Вернуться на главную</button>
+                </div>
+                <img src="images/error.svg" >
+            </div>
+        </div>
+
+
+        <div class="bottom-container">
+            <footer>
+                <div class="collumn-one">
+                    <div class="emblem ">
+                        <img src="images/footer-logo.svg" class="logo-container">
+                    </div>
+                    <p class="under-footer-logo-text">Политика конфенедциальности</p>
+                </div>
+                <ul class="collumn-two">
+                    <li class="error-page">Промокоды</li>
+                    <li class="error-page">Скидки</li>
+                    <li class="error-page">Помощь</li>
+                </ul>
+                <ul class="collumn-three">
+                    <li class="error-page">О нас</li>
+                    <li class="error-page">Контакты</li>
+                </ul>
+                <div class="column-four">
+                    <div class="line-contacts">
+                        <img src="images/CallBottom.svg" id="phone">
+                        <p>80447935087</p>
+                        <img src="images/Telegram_black.svg" id="telegram">
+                        <img src="images/Viber.svg" id="viber">
+                        <img src="images/whatsApp.svg" id="whatsApp">
+                    </div>
+                    <div class="work-time">
+                        <p>Время работы: с 9:00 до 20:00 по мск</p>
+                    </div>
+                    <div class="bottom-mail">
+                        <p id="img-mail">&#128386;</p>
+                        <p id="mail-text">Mr.Driskell@mail.ru</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </div>
+
+
+    
+</body>
+
+</html>

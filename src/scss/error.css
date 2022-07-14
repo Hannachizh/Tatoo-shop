@@ -1,0 +1,48 @@
+.all-document .container2 {
+  background-color: #EEEEEE;
+}
+.all-document .container2 .main-text {
+  display: flex;
+  max-width: 1920px;
+  width: 1026px;
+  margin: 0 auto;
+}
+.all-document .container2 .main-text .text {
+  max-width: 430px;
+}
+.all-document .container2 .main-text .text h1 {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 100%;
+  color: #BB8C5F;
+  padding-top: 160px;
+  margin-bottom: 20px;
+}
+.all-document .container2 .main-text .text p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 140%;
+  color: #3E424B;
+  width: 431px;
+}
+.all-document .container2 .main-text .text .btn-return {
+  margin-top: 50px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #FAF6F2;
+  background: #524336;
+  padding: 21px 56px;
+  border: 2px solid #BB8C5F;
+  transition: 0.5s;
+}
+.all-document .container2 .main-text .text .btn-return:hover {
+  background: #BB8C5F;
+}/*# sourceMappingURL=error.css.map */

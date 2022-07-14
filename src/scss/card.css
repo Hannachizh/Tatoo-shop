@@ -1,0 +1,278 @@
+.all-document .container2 {
+  max-width: 1920px;
+}
+.all-document .container2 .main-part {
+  width: 1216px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-document .container2 .main-part .left-part {
+  padding-top: 106px;
+}
+.all-document .container2 .main-part .left-part .photo-container {
+  display: grid;
+  grid-template-columns: 83px 470px;
+  grid-template-rows: 93px 93px 93px 93px;
+  row-gap: 10px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-bottom: 50px;
+}
+.all-document .container2 .main-part .left-part .photo-container .main-photo {
+  max-width: 470px;
+  width: 100%;
+  grid-column: 2;
+  grid-row: 1/6;
+}
+.all-document .container2 .main-part .left-part .photo-container .main-photo img {
+  max-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 470px;
+  width: 100%;
+}
+.all-document .container2 .main-part .left-part .photo-container .img1 {
+  max-width: 83px;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 1;
+}
+.all-document .container2 .main-part .left-part .photo-container .img1 img {
+  max-width: 83px;
+  width: 100%;
+  max-height: 93px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-document .container2 .main-part .left-part .photo-container .img2 {
+  max-width: 83px;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 2;
+}
+.all-document .container2 .main-part .left-part .photo-container .img2 img {
+  max-width: 83px;
+  width: 100%;
+  max-height: 93px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-document .container2 .main-part .left-part .photo-container .img3 {
+  max-width: 83px;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 3;
+}
+.all-document .container2 .main-part .left-part .photo-container .img3 img {
+  max-width: 83px;
+  width: 100%;
+  max-height: 93px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-document .container2 .main-part .left-part .photo-container .img4 {
+  max-width: 83px;
+  width: 100%;
+  grid-column: 1;
+  grid-row: 4;
+}
+.all-document .container2 .main-part .left-part .photo-container .img4 img {
+  max-width: 83px;
+  width: 100%;
+  max-height: 93px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.all-document .container2 .main-part .left-part .photo-container .active {
+  border: 1px solid #BB8C5F;
+}
+.all-document .container2 .main-part .left-part .descr-container {
+  margin-bottom: 50px;
+}
+.all-document .container2 .main-part .left-part .descr-container h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 115%;
+  color: #3E424B;
+  margin-bottom: 20px;
+}
+.all-document .container2 .main-part .left-part .descr-container p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #3E424B;
+  max-width: 515px;
+}
+.all-document .container2 .main-part .left-part .send-container {
+  margin-bottom: 50px;
+}
+.all-document .container2 .main-part .left-part .send-container h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 115%;
+  color: #3E424B;
+  margin-bottom: 20px;
+}
+.all-document .container2 .main-part .left-part .send-container p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #3E424B;
+  max-width: 515px;
+}
+.all-document .container2 .main-part .right-part {
+  padding-top: 106px;
+  max-width: 598px;
+}
+.all-document .container2 .main-part .right-part h1 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 115%;
+  color: #3E424B;
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+.all-document .container2 .main-part .right-part .price-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 306px;
+  margin-bottom: 25px;
+}
+.all-document .container2 .main-part .right-part .price-block .price {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 115%;
+  color: #BB8C5F;
+}
+.all-document .container2 .main-part .right-part .price-block .in-stock {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #3E424B;
+  margin-top: 5px;
+}
+.all-document .container2 .main-part .right-part .description {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #636B78;
+}
+.all-document .container2 .main-part .right-part .description .blocked {
+  display: none;
+}
+.all-document .container2 .main-part .right-part .description .btn-open {
+  color: #BB8C5F;
+  margin-top: 25px;
+}
+.all-document .container2 .main-part .right-part .description .btn-open .not-active {
+  display: none;
+}
+.all-document .container2 .main-part .right-part .description .btn-open .open-text {
+  margin-left: 8px;
+}
+.all-document .container2 .main-part .right-part .description .btn-open .close-text {
+  margin-left: 8px;
+}
+.all-document .container2 .main-part .right-part .description .btn-open img {
+  margin-bottom: 12px;
+}
+.all-document .container2 .main-part .right-part .counter-block {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 500px;
+}
+.all-document .container2 .main-part .right-part .counter-block .counter {
+  display: flex;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #636B78;
+  margin-top: 23px;
+}
+.all-document .container2 .main-part .right-part .counter-block .counter .minus-product {
+  font-size: 36px;
+  margin-top: 8px;
+}
+.all-document .container2 .main-part .right-part .counter-block .counter .inp-number {
+  width: 40px;
+  height: 36px;
+  text-align: center;
+  border: 1px solid #BB8C5F;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.all-document .container2 .main-part .right-part .counter-block .counter .plus-product {
+  font-size: 25px;
+  margin-top: 8px;
+}
+.all-document .container2 .main-part .right-part .counter-block .share-to-trash {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #FAF6F2;
+  background: #524336;
+  padding: 21px 56px;
+  border: 2px solid #BB8C5F;
+  transition: 0.5s;
+}
+.all-document .container2 .main-part .right-part .counter-block .share-to-trash:hover {
+  background: #BB8C5F;
+}
+.all-document .container2 .main-part .right-part .characters h3 {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 115%;
+  color: #3E424B;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.all-document .container2 .main-part .right-part .characters .char {
+  display: flex;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #636B78;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.all-document .container2 .main-part .right-part .characters .char p {
+  max-width: 50%;
+  width: 100%;
+}
+.all-document .container2 .main-part .right-part .characters .char .second {
+  text-align: center;
+}
+.all-document .container2 .main-part .right-part .characters img {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=card.css.map */
